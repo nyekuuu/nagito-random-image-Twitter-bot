@@ -19,7 +19,8 @@ print (user.name)
 x = 0
 
 def nagitotime():
-    path="C:\\Users\\Nora\\Desktop\\s\\"  #change to your own path
+    #change to your own path
+    path="C:\\Users\\Nora\\Desktop\\s\\" 
     files=os.listdir(path)
     img=random.choice(files)
     ok = str(x)
